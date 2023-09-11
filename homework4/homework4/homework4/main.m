@@ -21,7 +21,7 @@ int main(int argc, const char * argv[]) {
             } else if ([direction isEqualToString:@"right"]){
                 robot.x++;
             }
-            NSLog(@"Робот передвинулся (%ld, %ld)", robot.x, robot.y);
+            NSLog(@"Двигается (%ld, %ld)", robot.x, robot.y);
             
         }];
         
